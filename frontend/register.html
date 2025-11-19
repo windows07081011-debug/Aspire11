@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css" />
+<script src="register.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Student Registration</h1>
+</header>
+
+<form id="regForm">
+  <input type="text" name="name" placeholder="Full Name" required />
+  <input type="email" name="email" placeholder="Email Address" required />
+  <input type="text" name="phone" placeholder="Phone Number" required />
+  <input type="text" name="city" placeholder="City" required />
+  <button type="submit">Submit</button>
+</form>
+
+<div id="thanks" style="display:none; text-align:center; padding:40px;">
+  <h2>Thank you! Your registration has been submitted.</h2>
+</div>
+
+</body>
+</html>

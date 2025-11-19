@@ -1,0 +1,4 @@
+body { margin:0; font-family:Arial; background:#f7fbff; color:#033e6b; }
+header { background:#0b6bcb; color:white; padding:20px; display:flex; justify-content:space-between; align-items:center; }
+.btn { background:white; color:#0b6bcb; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold; }
+.intro { padding:40px; text-align:center; }
